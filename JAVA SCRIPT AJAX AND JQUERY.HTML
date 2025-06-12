@@ -1,0 +1,1349 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+<script src="https://kit.fontawesome.com/d8b89baf16.js" crossorigin="anonymous"></script>
+<style>
+   body {margin:0;height:2000px;}
+   p { text-align:justify;} 
+   
+   #btn-back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: none;
+    }
+    .icon-bar {
+  position: fixed;
+  top: 50%;
+  right:0%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+ 
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+    .facebook {
+      background: #3B5998;
+      color: white;
+    }
+    
+    .twitter {
+      background: #55ACEE;
+      color: white;
+    }
+    
+    .google {
+      background: #dd4b39;
+      color: white;
+    }
+    
+    .linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    
+    .youtube {
+      background: #bb0000;
+      color: white;
+    }
+</style>
+
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-dark navbar-expand-lg bg-success bg-opacity-0">
+            <div class="container-fluid">
+                <a href="#" class=""><img src="https://c8.alamy.com/comp/2B3JDJG/initial-wt-letter-linked-logo-creative-letter-wt-logo-design-vector-template-2B3JDJG.jpg" alt="" class="navbar-brand rounded-circle" width="50px" height="60px"></a>
+                <a class="navbar-brand" href="#">Web Development</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html"><i class="fa-solid fa-house"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="About.html">About</a>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Web Technology
+                        </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="TWC.html">Topic wise content</a></li>
+                                <li><a class="dropdown-item" href="snippets.html">Snippets</a></li>
+                                <li><a class="dropdown-item" href="Questions.html">Previous Questions paper</a></li>
+                                <li><a class="dropdown-item" href="Labs.html">Lab Programs</a></li>
+                                <li><a class="dropdown-item" href="Youtube.html" >Youtube links</a></li>
+                                <li><a class="dropdown-item" href="QUIZ.HTML">Quiz</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://www.svrec.ac.in/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="container-fluid bg-secondary bg-opacity-25" style=" margin-top:10px;
+             
+        font-family:Arial, Helvetica, sans-serif;
+        color:black;"> 
+        <hr>
+        <div id="1.8">
+            <center>
+                         <h2> <b>JAVASCRIPT  AJAX AND JQURY</b><br></h2>                                  
+                         </center>
+           <div class="container" style="margin-top:30px;">
+                          
+                         
+        
+                                       <p style="margin-top:10px;">
+                                        <h3> CHAPTER 4</h3>
+                                        <a href="#4.1">  4.1 JavaScript Ajax and JQuery</a>  <br>      
+                                          <a href="#4.2">       4.2 Define AJAX</a><br>
+                                            <a href="#4.3">    4.3 List the steps for designing a web application using AJAX.</a><br>
+                                              <a href="#4.4">      4.4 Explain XMLHttpRequest Object properties and methods of XMLHttpRequest</a><br>
+                                                <a href="#4.5">      4.5 Explain sending Ajax request to server and receiving a response from server with
+                                                       example program.</a><br>
+                                                    <a href="#4.6">        4.6 Define JQuery</a><br>
+                                                      <a href="#4.7">        4.7 List the features of JQuery</a><br>
+                                                        <a href="#4.8"> 4.8 List JQuery plugins</a><br>
+                                                  <a href="#4.9">        4.9 Explain the steps for to includeJQueryin Web Pages</a><br>
+                                                    <a href="#4.10">    4.10 Explain JQuery Syntax with example program</a><br>
+                                                      <a href="#4.11">        4.11 Describe the jQuery Selectors-Accessing HTML elements by using</a><br>
+                                                      
+                                                  <a href="#4.12">         4.12 Explain the JQuery Document Ready Event</a><br>
+                                                    <a href="#4.13">        4.13 Describe the JQuery Event handling methods(Mouse Events, Keyboard Events, Form
+                                                          Events, Document/Window events)</a><br>
+                                                        <a href="#4.14">      4.14 Explain effects of JQuery ( like hide, show, fadeIn, fadeout, fadeToggle,fadeTo,
+                                                          >      slideDown, SlideUp, SlideToggle)</a><br>
+                                                            <a href="#4.15">      4.15 Explain Functions in JQuery like text(),html(), val(), attr(),css().</a><br>
+                                                              <a href="#4.16">          4.16 Define AngularJS? Architecture, Advantages & Features.</a><br>
+                                                                <a href="#4.17">      4.17 List and Explain Angular JS Directives like ng-app,ng-init ,ng-model ,ng-repeat</a><br>
+                                                                  <a href="#4.18">     4.18 Explain AngularJS Expressions like number, string,object,array.</a><br>
+                                                                    <a href="#4.19">    4.19 Explain AngularJS Filters like lowercase,uppercase,filter,orderby,currency.</a><br>
+                                                                    <br>
+                                       
+                                     
+                                       
+                                        </p>
+                   
+                                       
+                                  
+        
+        
+                                   </div>
+                           
+                           </div> 
+                        
+                           <!--this the container of one content -->
+
+
+                           <hr>
+<div id="4.1">
+    <center>
+                 <h2> <b>JAVASCRIPT (AJAX,JQUERY)</b><br></h2>                                  
+                 </center>
+   <div class="container" style="margin-top:30px;">
+                  
+                 
+
+                               <p style="margin-top:10px;">
+
+
+                                
+
+
+
+
+JavaScript is a programming language that is widely used to add interactivity to websites. One of the key features of JavaScript is its ability to make asynchronous requests to a server, without needing to reload the entire web page. This is known as AJAX (Asynchronous JavaScript and XML).
+<br>
+<br>
+jQuery is a popular JavaScript library that simplifies the process of writing JavaScript code. It provides a set of pre-written functions that make it easier to manipulate the HTML and CSS of a web page, as well as to perform AJAX requests.
+<br><br>
+Using jQuery, you can easily make AJAX requests to a server, handle the response, and update the web page accordingly. The following is an example of how to make an AJAX request using jQuery:
+<br><br>
+an AJAX request is made to the URL "http://example.com/data". If the request is successful, the "success" function is called, which logs the loaded data to the console. If there is an error, the "error" function is called, which logs an error message to the console.
+
+
+
+
+                                        
+                             
+                               
+                                </p>
+           
+                               
+                          
+
+
+                           </div>
+                   
+                   </div> 
+                
+                   <!--this the container of one content -->
+
+                   <hr>
+<div id="4.2">
+    <center>
+                 <h2> <b>DEFINE  AJAX</b><br></h2>                                  
+                 </center>
+   <div class="container" style="margin-top:30px;">
+                  
+                 
+
+                               <p style="margin-top:10px;">
+
+
+                                
+
+
+Ajax (Asynchronous JavaScript and XML) is a technique used in web development that allows web pages to update data dynamically without requiring a full page reload. With Ajax, web applications can send and receive data in the background, asynchronously, without interfering with the display and behavior of the existing page. This technology uses a combination of JavaScript and XML (although JSON is often used in place of XML) to communicate with the server and update the page content based on the response received. Ajax is commonly used to build dynamic, responsive, and interactive web applications, including social media platforms, online marketplaces, and real-time collaboration tools.
+
+
+                                        
+                             
+                               
+                                </p>
+           
+                               
+                          
+
+
+                           </div>
+                   
+                   </div> 
+                
+                   <!--this the container of one content -->
+
+                   <hr>
+<div id="4.3">
+    <center>
+                 <h2> <b> LIST THE STEPS FOR DESIGNING Web Application using AJAX </b><br></h2>                                  
+                 </center>
+   <div class="container" style="margin-top:30px;">
+                  
+                 
+
+                               <p style="margin-top:10px;">
+
+
+                               
+Sure, here are the general steps for designing a web application using AJAX:
+<BR>
+  <B> 1.Determine the purpose and functionality of the web application:</B>   Before designing the application, you should have a clear idea of what it's supposed to do and what features it should have. This will help you determine what data you need to retrieve and display using AJAX.
+<BR><BR>
+ <B> 2.Plan the user interface: </B>  Sketch out the basic layout of the web application and decide how users will interact with it. This will help you determine which parts of the interface will need to be updated dynamically using AJAX.
+<BR><BR>
+ <B>3.Identify the data sources: </B>  Determine where the data for your web application will be coming from. This could be a database, an API, or some other source. You'll need to know the format of the data so you can parse it with JavaScript.
+<BR><BR>
+  <B> 4.Write the AJAX code:</B>  Use JavaScript to make AJAX calls to retrieve data from the server and update the user interface dynamically. You'll need to use the XMLHttpRequest object or a library like jQuery to make the AJAX calls.
+<BR><BR>
+  <b>5.Test and debug: </b> Test the web application thoroughly to make sure it works as expected. Use the browser's developer tools to debug any issues you encounter.
+<BR><BR>
+  <b>  6.Optimize performance:</b>  Optimize the performance of your web application by reducing the number of AJAX calls and minimizing the amount of data transferred between the client and server.
+<BR><BR>
+  <b> 7.Refine the user interface:</b>  Once the web application is working correctly, refine the user interface to make it more user-friendly and aesthetically pleasing.
+<BR><BR>
+  <b> 8.Deploy the application:</b>  Deploy the web application to a web server so that it can be accessed by users. Make sure the server is configured to handle AJAX requests properly.
+<BR><BR>
+These are the general steps for designing a web application using AJAX
+                                        
+                             
+                               
+                                </p>
+           
+                               
+                          
+
+
+                           </div>
+                   
+                   </div> 
+                
+                   <!--this the container of one content -->
+
+
+
+                   <hr>
+<div id="4.4">
+    <center>
+                 <h2> <b>EXPLAIN XML HTTP REQUEST OBJECT PROPERTIES AND METHODS OF XML HTTP REQUEST</b><br></h2>                                  
+                 </center>
+   <div class="container" style="margin-top:30px;">
+                  
+                 
+
+                               <p style="margin-top:10px;">
+
+
+
+
+                                
+
+
+The XMLHttpRequest (XHR) object is a core component of modern web development, which allows client-side scripts to make HTTP requests to servers in order to retrieve data or perform other actions without needing to reload the entire page. Here are some of the properties and methods available on the XHR object:
+<BR><BR>
+ <h3>Properties:<BR> </h3>
+<BR>
+  <h5>1.readyState:  </h5>  an integer that represents the current state of the XHR object. It can have the following values:
+<BR><BR>
+  <b>i.UNSENT -  </b>   the XHR object has been created, but open() hasn't been called yet.<BR>
+    <b> ii: OPENED -</b>  open() has been called.<BR>
+  <b> iii: HEADERS_RECEIVED -</b>  the response headers have been received.<BR>
+  <b> iii: HEADERS_RECEIVED -</b>  the response is being received (streaming).<BR>
+   <b>  iv: DONE -</b>  the entire response has been received and is available.<BR>
+    <b>  v.response:</b>  the response received from the server as a string or an object, depending on the value of the responseType property (see below).
+<BR><BR>
+  <h5>2.responseType: </h5>  a string that specifies the type of the response. The possible values are:<BR>
+  <b> i."" (empty string):</b> the default value, the response will be returned as a string.<BR>
+  <b> ii. "arraybuffer": </b>  the response will be returned as an ArrayBuffer object, useful for binary data.<BR>
+    <b> iii. "blob":</b>  the response will be returned as a Blob object.<BR>
+  <b> iv. "document":</b>  the response will be parsed as an HTML or XML document (if the Content-Type header is set to text/html or application/xml, respectively).<BR>
+  <b> v. "json": </b>  the response will be parsed as a JSON object.<BR>
+    <b>vi. "text": </b>   the response will be returned as a string.<BR>
+    <b> 3. status:</b>  an integer that represents the HTTP status code returned by the server (e.g. 200, 404, etc.).<BR>
+  <b>4.statusText: </b>  a string that represents the HTTP status message returned by the server (e.g. "OK", "Not Found", etc.).<BR>
+<BR>
+ <h3> Methods:<BR><BR></h3> 
+   <b>1.open(method, url, async): </b>  initializes a request. method is the HTTP method to use (e.g. "GET", "POST"), url is the URL to send the request to, and async is a boolean that specifies whether the request should be asynchronous or not.
+<BR>
+   <b>2.send(data): </b>   sends the request to the server. data is optional and can be used to send data to the server (e.g. form data, JSON data, etc.).
+<BR>
+  <B>3.abort():</B>  aborts the request if it has already been sent.
+<BR>
+     <B>4.setRequestHeader(name, value): </B>  sets a request header with the given name and value.
+<BR>
+  <B>5.getAllResponseHeaders(): </B>returns all the response headers as a string.
+<BR>
+   <B> 6.getResponseHeader(name):</B>  returns the value of the specified response header.
+<BR>
+These are just some of the properties and methods available on the XHR object.
+<BR>
+
+                                        
+                             
+                               
+                                </p>
+           
+                               
+                          
+
+
+                           </div>
+                   
+                   </div> 
+                
+                   <!--this the container of one content -->
+
+
+
+
+                   <hr>
+<div id="4.5">
+    <center>
+                 <h2> <b> EXPLAIN SENDING AJAX REQUEST TO SERVER AND RECIVING RESPONSE FROM SERVER WITH EXAMPLE PROGRAM</b><br></h2>                                  
+                 </center>
+   <div class="container" style="margin-top:30px;">
+                  
+                 
+
+                               <p style="margin-top:10px;">
+                                
+
+Ajax (Asynchronous JavaScript and XML) is a technology used to send and receive data from the server without the need to refresh the entire page. It allows web pages to update data asynchronously by exchanging data with the server in the background.
+<BR><BR>
+
+Here's an example program that demonstrates how to send an Ajax request to the server and receive a response:<BR><BR>
+<B>
+javascript<BR>
+Copy code<BR>
+// Create a new XMLHttpRequest object<BR>
+var xhr = new XMLHttpRequest();<BR><BR>
+
+// Define the request URL and HTTP method<BR>
+var url = "https://example.com/api";<BR>
+var method = "POST";<BR><BR>
+
+// Define the request parameters<BR>
+var params = "param1=value1 & param2=value2";<BR>
+<BR>
+// Open the request<BR>
+xhr.open(method, url, true);<BR><BR>
+
+// Set the request header<BR>
+xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+<BR>
+// Define the callback function to handle the response<BR>
+xhr.onreadystatechange = function() {<BR>
+  if (xhr.readyState == 4 && xhr.status == 200) {<BR>
+    // Handle the response<BR>
+    console.log(xhr.responseText);<BR>
+  }<BR>
+};<BR><BR>
+
+// Send the request<BR>
+xhr.send(params);<BR>
+    </B>
+In this example, we create a new XMLHttpRequest object and define the URL and HTTP method for the request. We also define the request parameters and open the request using the open method.<BR><BR>
+
+We then set the request header to specify that the request parameters are encoded using the application/x-www-form-urlencoded format.
+<BR><BR>
+We define a callback function to handle the response, which is executed when the readyState of the request changes to 4 (meaning that the request has completed) and the status is 200 (meaning that the response was successful). In this case, we simply log the response to the console.
+<BR><BR>
+Finally, we send the request using the send method, passing in the request parameters as an argument.
+
+
+
+
+                                        
+                             
+                               
+                                </p>
+           
+                               
+                          
+
+
+                           </div>
+                   
+                   </div> 
+                
+                   <!--this the container of one content -->
+
+                   <hr>
+<div id="4.6">
+    <center>
+                 <h2> <b> DEFINE JQUERY</b><br></h2>                                  
+                 </center>
+   <div class="container" style="margin-top:30px;">
+                  
+                 
+
+                               <p style="margin-top:10px;">
+
+                               
+
+
+   <b> Jquery</b> 
+<BR>
+•Jquery is an open source javascript library that simplifies the interactions between an HTML/CSS document or more preciseli the DOM "document model object" and javascript. 
+•Jquery simplefies HTML document traversing and manipulation, browser event handling,DOM animations,ajax interactions and cross browser javascript development.
+•Jquery is widely famous with its philosophy of "write less do more".
+
+<BR><BR>
+
+jQuery is a popular JavaScript library designed to simplify client-side scripting of HTML. It was created in 2006 by John Resig, and it has become one of the most widely used JavaScript libraries on the web. jQuery makes it easier to traverse and manipulate HTML documents, handle events, create animations, and interact with web services. It provides a simple and intuitive API that works across multiple web browsers, making it a powerful tool for building dynamic and interactive web applications.
+
+
+                                        
+                             
+                               
+                                </p>
+           
+                               
+                          
+
+
+                           </div>
+                   
+                   </div> 
+                
+                   <!--this the container of one content -->
+
+
+                   <hr>
+<div id="4.7">
+    <center>
+                 <h2> <b>LIST THE FEATURES OF THE JQUERY</b><br></h2>                                  
+                 </center>
+   <div class="container" style="margin-top:30px;">
+                  
+                 
+
+                               <p style="margin-top:10px;">
+
+
+
+                         
+
+jQuery is a popular JavaScript library that simplifies HTML document traversal and manipulation, event handling, and animation for rapid web development. Some of the key features of jQuery include:
+<BR><BR>
+  <B>1.DOM Manipulation: </B>  jQuery makes it easy to select and manipulate HTML elements on a page, making it simpler to add, remove or modify elements.<BR><BR>
+
+  <B> 2.Event Handling: </B>  jQuery provides a unified way to handle events such as click, hover, submit, and many more, making it easier to manage event handlers.
+<BR><BR>
+  <B>  3.AJAX Support:</B>  jQuery makes it simple to work with AJAX requests, allowing developers to retrieve data from a server without a page refresh.
+<BR><BR>
+   <B>4.Animations and Effects: </B>  jQuery provides a wide range of built-in animations and effects that can be easily applied to HTML elements.
+<BR><BR>
+ <B>5.Cross-Browser Compatibility: </B> jQuery is designed to work consistently across all major web browsers, making it easier to write cross-browser compatible code.
+<BR><BR>
+   <B> 6.Simplified Syntax: </B>  jQuery has a concise and simple syntax that makes it easier to write code, reducing the amount of boilerplate required.
+<BR><BR>
+ <B>7.Plugins:  </B>  jQuery has a vast collection of third-party plugins that extend its functionality, allowing developers to easily add new features to their web applications.
+<BR><BR>
+  <B>8.Lightweight:</B>  jQuery is a lightweight library, with a compressed file size of only a few kilobytes, making it easy to load and use on any web page.
+<BR><BR>
+   <B>9.Chainable Method Calls: </B>  jQuery allows developers to chain multiple method calls together, reducing the amount of code needed to achieve complex functionality.
+<BR><BR>
+  <B>10.Extensibility: </B>  jQuery is highly extensible, with a plugin architecture that makes it easy to create custom functionality and add it to the core library.
+
+
+                                        
+                             
+                               
+                                </p>
+           
+                               
+                          
+
+
+                           </div>
+                   
+                   </div> 
+                
+                   <!--this the container of one content -->
+
+
+
+
+
+                   <hr>
+<div id="4.8">
+    <center>
+                 <h2> <b>LIST JQUERY PLUGINS</b><br></h2>                                  
+                 </center>
+   <div class="container" style="margin-top:30px;">
+                  
+                 
+
+                               <p style="margin-top:10px;">
+
+
+                               
+
+
+
+
+
+Here are some popular jQuery plugins:<BR><BR>
+
+  <B> 1.jQuery UI -</B>  provides a set of user interface interactions, effects, widgets, and themes<BR><BR>
+  <B> 2.DataTables -</B>  a highly customizable jQuery plugin for creating dynamic and interactive data tables<BR><BR>
+   <B>3.Slick -</B>  a responsive carousel jQuery plugin that supports multiple layouts and customization options<BR><BR>
+  <B> 4.Fancybox -</B>  a jQuery plugin that allows you to display images, HTML content, and multimedia in a responsive lightbox<BR><BR>
+  <B> 5.Owl Carousel -</B>  a touch-enabled jQuery plugin for creating responsive and customizable image and content sliders<BR><BR>
+  <B> 6.Select2 -</B>  a jQuery plugin that enhances the HTML select box with search, multi-select, and other features<BR><BR>
+  <B>7.Magnific Popup -</B> a responsive jQuery lightbox plugin that supports images, videos, and inline content<BR><BR>
+ <B>8.jQuery Validation - </B>  a plugin that provides easy and flexible form validation with customizable error messages<BR><BR>
+  <B> 9.FullCalendar -</B>  a jQuery plugin for creating interactive and customizable calendar views<BR><BR>
+  <B> 10.jPlayer -</B>  a HTML5 audio and video player plugin that works with both HTML5 and Flash.
+<BR><BR>
+
+                                        
+                             
+                               
+                                </p>
+           
+                               
+                          
+
+
+                           </div>
+                   
+                   </div> 
+                
+                   <!--this the container of one content -->
+
+
+
+
+                   <hr>
+<div id="4.9">
+    <center>
+                 <h2> <b>EXPALIN THE STEPS FOR TO INCLUDING JQUERY WEBPAGE</b><br></h2>                                  
+                 </center>
+   <div class="container" style="margin-top:30px;">
+                  
+                 
+
+                               <p style="margin-top:10px;">
+
+
+                    
+
+To include jQuery in a web page, you can follow these steps:
+<BR><BR>
+    <B>Download jQuery: </B>  Visit the jQuery website and download the latest version of jQuery. You can either download the compressed or uncompressed version.
+<BR><BR>
+   <B> Add the jQuery File to Your Project:</B>  Once you've downloaded jQuery, save it to a directory in your project. You can either save it in the root directory or in a subdirectory.
+<BR><BR>
+   <B>Link to the jQuery File: </B>  Add the following code to the <head> section of your HTML document to link to the jQuery file you just downloaded:
+<BR><BR>
+   <B> Test Your Installation:</B>  To make sure jQuery is working correctly, you can add the following code to your HTML document:
+<BR><BR>
+This code will execute when the page is loaded and will ensure that jQuery is ready to be used.
+
+                                        
+                             
+                               
+                                </p>
+           
+                               
+                          
+
+
+                           </div>
+                   
+                   </div> 
+                
+                   <!--this the container of one content -->
+
+
+                   <hr>
+<div id="4.10">
+    <center>
+                 <h2> <b>EXPALIN JQUERY SYNTAX WITH EXAMPLE PROGRAM</b><br></h2>                                  
+                 </center>
+   <div class="container" style="margin-top:30px;">
+                  
+                 
+
+                               <p style="margin-top:10px;">
+
+
+
+
+                              
+
+
+
+
+jQuery is a popular JavaScript library that simplifies and enhances the process of manipulating HTML and CSS, handling events, making animations, and interacting with web services. Its syntax is designed to be simple and easy to use, allowing developers to write concise and powerful code.
+<BR><BR>
+Here's an example program that demonstrates some of the basic jQuery syntax:
+<BR><BR>
+HTML:<BR><BR>
+  <B> 
+<!DOCTYPE html><BR>
+&LT html ><BR>
+&LThead><BR>
+	&LT title>jQuery Syntax Example</title><BR>
+	&LT script src="https://code.jquery.com/jquery-3.6.0.min.js"></script><BR>
+	&LT style><BR>
+		&LT div {<BR>
+			width: 200px;<BR>
+			height: 200px;<BR>
+			background-color: blue;<BR>
+			color: white;<BR>
+			text-align: center;<BR>
+			line-height: 200px;<BR>
+			font-size: 24px;<BR>
+		}<BR>
+	&LT /style><BR>
+&LT /head><BR>
+&LT body><BR>
+	&LT div id="myDiv">Click Me</div><BR>
+	&LT script><BR>
+		$(document).ready(function() {<BR>
+			$('#myDiv').click(function() {<BR>
+				$(this).fadeOut('slow');<BR>
+			});<BR>
+		});<BR>
+	&LT /script><BR>
+&LT /body><BR>
+&LT /html><BR><BR>
+</B>
+In this program, we include the jQuery library in the head section of the HTML file using the script tag. Then we define a simple div element with an ID of myDiv. We also define a CSS style for the div.
+<BR><BR>
+In the script section, we use the $(document).ready() function to ensure that the code is executed only after the document has finished loading. Inside this function, we use the jQuery selector $('#myDiv') to select the div element with the ID myDiv. We attach a click event handler to this element using the click() function. Inside the event handler, we use the $(this) selector to refer to the clicked div element. We then call the fadeOut() function to fade out the div element slowly.
+<BR><BR>
+When we load this program in a web browser and click on the Click Me text, the div element will slowly fade out and disappear.
+<BR>
+                                        
+                             
+                               
+                                </p>
+           
+                               
+                          
+
+
+                           </div>
+                   
+                   </div> 
+                
+                   <!--this the container of one content -->
+
+
+
+
+
+
+                   <hr>
+<div id="4.11" class="bg-secondary bg-opacity-25">
+    <center>
+                 <h2> <b>DESCRIBE THE JQURY SELECTORS-ACCESSING HTML ELEMENTS BY USING</b><br></h2> 
+                                                  
+                 </center>
+   <div class="container" style="margin-top:30px;">
+                  
+                 
+
+                               <p style="margin-top:10px;">
+
+
+
+
+
+
+                          jQuery is a popular JavaScript library that provides a convenient way to manipulate HTML and CSS elements on a webpage. It offers several selectors that allow you to easily access and manipulate specific elements in your HTML document.
+<BR><BR>
+<H1>1.Element Selector:</H1>
+<BR><BR>
+The element selector is used to select all the elements on the page that match the specified element type. For example, to select all the paragraphs on the page, you would use the following jQuery code:<BR><BR>
+
+$("p")<BR><BR>
+
+This will select all the <p> elements on the page.<BR><BR>
+
+<H1>2.ID Selector:</H1><BR><BR>
+The ID selector is used to select a single element with a specific ID attribute. For example, to select the element with an ID of "myDiv", you would use the following jQuery code<BR>
+$("#myDiv")<BR><BR>
+
+This will select the element with the ID "myDiv".
+<BR><BR>
+<H1>3.Class Selector:</H1><BR><BR>
+The class selector is used to select all elements with a specific class attribute. For example, to select all elements with the class "myClass", you would use the following jQuery code:
+<BR><BR>
+$(".myClass")<BR><BR>
+
+This will select all elements with the class "myClass".
+<BR><BR>
+                                        
+
+
+
+
+
+
+
+
+
+
+                             
+                               
+                                </p>
+           
+                               
+                          
+
+
+                           </div>
+                   
+                   </div> 
+                
+                   <!--this the container of one content -->
+
+
+
+                   <hr>
+<div id="4.12" class="bg-secondary bg-opacity-25">
+    <center>
+                 <h2> <b>EXPLAIN THE JQUERY DOCUMENT READY EVENT</b><br></h2>                                  
+                 </center>
+   <div class="container" style="margin-top:30px;">
+                  
+                 
+
+                               <p style="margin-top:10px;">
+
+
+
+
+
+                                
+
+
+
+
+The jQuery document ready event is a special event that is fired when the HTML document has been completely loaded and parsed, and the DOM (Document Object Model) is ready for manipulation. It is a way of telling jQuery to wait until the document is fully loaded before executing any JavaScript code that interacts with the DOM.
+<BR><BR>
+The syntax for the document ready event is as follows:
+<BR><BR>  <b>
+$(document).ready(function() {<BR>
+  // code to execute when the document is ready<BR>
+});<BR><BR>
+</b>
+
+<BR>
+The $ symbol is a shorthand for the jQuery library, and $(document) selects the entire HTML document. The ready method is called on the document object, and takes a function as its argument. This function is executed as soon as the document is ready.<BR><BR>
+
+Using the document ready event ensures that your JavaScript code will not run until the HTML document is fully loaded, which can prevent errors and improve performance. It is a common practice to wrap your jQuery code inside the document ready event handler, to ensure that it is executed only when the document is ready.
+
+
+                                        
+                             
+                               
+                                </p>
+           
+                               
+                          
+
+
+                           </div>
+                   
+                   </div> 
+                
+                   <!--this the container of one content -->
+
+
+                   <hr>
+<div id="4.13" class="bg-secondary bg-opacity-25">
+    <center>
+                 <h2> <b>DESCRIBE THE JQUERY EVENT HANDLING METHODS(mouseevents,keyboardevents,formevents,document/windowsevents)</b><br></h2>                                  
+                 </center>
+   <div class="container" style="margin-top:30px;">
+                  
+                 
+
+                               <p style="margin-top:10px;">
+
+
+
+
+
+                               
+
+
+jQuery provides a powerful set of event handling methods that allow you to respond to user interactions with your web page. The event handling methods can be divided into four main categories: mouse events, keyboard events, form events, and document/window events.
+<br><br>
+  <h5> 1.Mouse Events:<br>  </h5>
+Mouse events are triggered when the user interacts with the mouse, such as clicking a button or hovering over an element. jQuery provides several methods to handle mouse events, including:<br><br>
+
+   <b>i.click(): </b>  This method is triggered when the user clicks on an element.
+<br>
+   <b> ii. dblclick(): </b>  This method is triggered when the user double-clicks on an element.
+<br>
+   <b>  iii. hover():</b>  This method is triggered when the user moves the mouse over an element.
+<br>
+  <b>  iv. mouseenter(): </b>  This method is triggered when the mouse enters the boundaries of an element.
+<br>
+  <b>  v. mouseleave(): </b>    This method is triggered when the mouse leaves the boundaries of an element.
+<br><br>
+<h5>2.Keyboard Events:</h5>
+Keyboard events are triggered when the user interacts with the keyboard, such as typing a key or pressing a key combination. jQuery provides several methods to handle keyboard events, including:
+<br>
+  <b> i. keypress(): </b>  This method is triggered when the user presses a key while the focus is on an element.
+<br>
+  <b> ii. keydown():</b> This method is triggered when the user presses a key.
+<br>
+   <b>iii. keyup():  </b>  This method is triggered when the user releases a key.
+<br><br><br>
+<h5>3.Form Events:</h5>
+Form events are triggered when the user interacts with a form element, such as submitting a form or changing the value of an input field. jQuery provides several methods to handle form events, including:
+
+   <b> i.submit(): </b>  This method is triggered when the user submits a form.
+<br>
+  <b> ii. change():  </b>  This method is triggered when the value of an input field is changed.
+<br>
+  <b> iii. focus(): </b>  This method is triggered when an input field receives focus.
+<br>
+    <b>iv. blur(): </b>  This method is triggered when an input field loses focus.
+<br><br>
+<h5>4.Document/Window Events:</h5>
+Document/Window events are triggered when the user interacts with the document or the browser window, such as resizing the window or scrolling the document. jQuery provides several methods to handle document/window events, including:
+<br><br>
+   <b> i.load():</b>  This method is triggered when the document has finished loading.
+<br>
+  <b>ii. resize(): </b>  This method is triggered when the browser window is resized.
+<br>
+  <b> iii. scroll():</b>  This method is triggered when the document is scrolled.
+<br>
+  <b> iv. unload():</b>  This method is triggered when the user leaves the page or closes the browser window.
+
+
+
+                                        
+                             
+                               
+                                </p>
+           
+                               
+                          
+
+
+                           </div>
+                   
+                   </div> 
+                
+                   <!--this the container of one content -->
+
+
+
+
+                   <hr>
+<div id="4.14" class="bg-secondary bg-opacity-25">
+    <center>
+                 <h2> <b>EXPLAIN EFFECTS OF JQUERY(hide,show,fadein,fadeout,fadetoggle,fadeto,sliddown,slideup,slidetoogle)</b><br></h2>                                  
+                 </center>
+   <div class="container" style="margin-top:30px;">
+                  
+                 
+
+                               <p style="margin-top:10px;">
+
+
+                              
+<br>
+
+jQuery is a popular JavaScript library that simplifies the process of creating dynamic and interactive web pages. The library provides a set of functions and methods that can be used to manipulate HTML elements, such as hiding, showing, and animating them.
+<br><br><br>
+Here are the explanations of some of the most commonly used jQuery effects:
+<br><br>
+ <b>  Hide:</b>  This effect hides the selected HTML element by setting its display property to "none".<br><br>
+
+ <b>Show: </b> This effect shows the selected HTML element by setting its display property to its default value, such as "block" or "inline".
+<br><br>
+  <b>FadeIn: </b>  This effect gradually fades in the selected HTML element by increasing its opacity from 0 to 1.
+<br><br>
+  <b> FadeOut:</b>  This effect gradually fades out the selected HTML element by decreasing its opacity from 1 to 0.
+<br><br>
+   <b> FadeToggle: </b>  This effect toggles the visibility of the selected HTML element by fading it in if it's hidden, and fading it out if it's visible.
+<br><br>
+    <b> FadeTo:</b>  This effect fades the selected HTML element to a specific opacity level. The opacity level is specified as a decimal between 0 and 1.
+<br><br>
+  <b> SlideDown: </b>  This effect reveals the selected HTML element by sliding it down from the top of its container.
+<br><br>
+  <b>SlideUp: </b>  This effect hides the selected HTML element by sliding it up to the top of its container.
+<br><br>
+     <b> SlideToggle:</b>  This effect toggles the visibility of the selected HTML element by sliding it down if it's hidden, and sliding it up if it's visible.
+<br><br>
+These effects can be combined to create more complex animations and interactions on a web page
+
+
+
+                                        
+                             
+                               
+                                </p>
+           
+                               
+                          
+
+
+                           </div>
+                   
+                   </div> 
+                
+                   <!--this the container of one content -->
+        
+
+
+
+
+
+                   <hr>
+<div id="4.15" class="bg-secondary bg-opacity-25">
+    <center>
+                 <h2> <b>explain functions in jquery (text,html,val,attr,css)</b><br></h2>                                  
+                 </center>
+   <div class="container" style="margin-top:30px;">
+                  
+                 
+
+                               <p style="margin-top:10px;">
+
+
+
+                           
+
+
+In jQuery, functions such as text(), html(), val(), attr(), and css() are used to manipulate various properties of HTML elements in the document. Here's a brief explanation of each of these functions:
+<br><br>
+   <b> 1.text(): </b>  This function is used to get or set the text content of an HTML element. When used with no arguments, it returns the text content of the first matched element. When used with an argument, it sets the text content of all matched elements to the given value.
+<br>
+<br>
+  <b> Example usage:</b>  $('p').text() will return the text content of the first p element in the document, while $('p').text('Hello, world!') will set the text content of all p elements to "Hello, world!".
+<br><br>
+  <b>2.html(): </b>  This function is similar to text(), but is used to get or set the HTML content of an element instead of the text content.
+<br><br>
+   <b>Example usage: </b>  $('div').html() will return the HTML content of the first div element in the document, while $('div').html('&lt p>Hello, world!&lt /p>') will set the HTML content of all div elements to &lt p>Hello, world!&lt /p>.
+<br><br>
+  <b>3.val(): </b>  This function is used to get or set the value of form elements such as input, select, and textarea.
+<br><br>
+   <b> Example usage:</b>  $('input').val() will return the value of the first input element in the document, while $('input').val('John') will set the value of all input elements to "John".
+<br><br>
+    <b>4.attr(): </b>  This function is used to get or set the value of an attribute of an HTML element.
+<br><br>
+  <b> Example usage: </b> $('img').attr('src') will return the value of the src attribute of the first img element in the document, while $('img').attr('alt', 'A beautiful sunset') will set the value of the alt attribute of all img elements to "A beautiful sunset".
+<br><br>
+   <b> 5.css():</b>  This function is used to get or set CSS properties of an element.<br><br>
+ <b> Example usage: 
+<br>
+$('div').css('background-color') will return the value of the background-color property of the first div element in the document, while 
+$('div').css('background-color', 'red') will set the background-color property of all div elements to "red".
+</b>
+
+                                        
+                             
+                               
+                                </p>
+           
+                               
+                          
+
+
+                           </div>
+                   
+                   </div> 
+                
+                   <!--this the container of one content -->
+
+
+
+                   <hr>
+<div id="4.16" class="bg-secondary bg-opacity-25">
+    <center>
+                 <h2> <b>DEFINE ANJULAR JS ? ARCHITECTURE,ADVANTAGES & FEATURES</b><br></h2>                                  
+                 </center>
+   <div class="container" style="margin-top:30px;">
+                  
+                 
+
+                               <p style="margin-top:10px;">
+
+
+
+
+                                
+
+
+  <b>Angular js<BR>
+  </b> 
+
+
+
+•It is a javascript open source front end structural frame work that is mainly used to develop (SPA) single page web applications.
+<BR>
+•Angular js extends HTML attributes with directives and binds data to HTML with expressions.
+<BR>
+•It can be added to an HTML page with a &LT script>(script tag).
+<BR>
+•It is an open source project which can be freely used and changed by anyone. 
+<BR>
+•Angular js was developed in 2008 by Miskohevery and Adamabroms and is know maintained by google. 
+<BR>
+•It features like dynamic binding and dependency injection eliminates the need for code that we have to write otherwise.
+<BR>
+
+<H5>Features of Angular js:</H5>
+<BR>
+
+
+     <h5> 1)data binding:<BR> </h5>
+
+Data binding in AngularJS refers to the automatic synchronization of data between the model and the view. It allows you to establish a connection between your data model and your HTML view without having to write custom code to manage this synchronization.
+<BR>
+There are four types of data binding in AngularJS:
+<BR>
+   <b> *One-way binding:  </b>  In one-way binding, the data flows in one direction only, from the model to the view or from the view to the model. Changes made to the model are automatically reflected in the view, but changes made in the view do not affect the model. One-way binding is achieved using the curly braces notation {{ }}.
+<BR>
+  <b> *Two-way binding:</b>  Two-way binding is a type of binding that allows you to synchronize data between the model and the view in both directions. Changes made to the model are automatically reflected in the view, and changes made in the view are automatically reflected in the model. Two-way binding is achieved using the ng-model directive.
+<BR>
+  <b>*One-time binding: </b>  In one-time binding, the value is only bound once, when the page is loaded. After that, the binding is removed, and the value will not change, even if the model changes. One-time binding is achieved using the double-colon notation ::.
+<BR>
+   <b>*Event binding: </b>  Event binding is used to bind events in the view to functions in the controller. When the event is triggered, the associated function is executed. Event binding is achieved using the ng-click, ng-dblclick, ng-mouseover, and other similar directives.
+<BR>
+Overall, data binding in AngularJS makes it easier to manage data in your application and provides a more streamlined approach to developing complex user interfaces.
+<BR><BR>
+
+
+   <b> <H5>2)architecture: </H5><BR> </b> 
+
+AngularJS is a popular front-end JavaScript framework that uses a Model-View-Controller (MVC) architecture pattern. The framework follows a component-based architecture, which means that an application is broken down into smaller, reusable components that are easier to manage.
+<BR><BR>
+
+<H5>3)Directives:</H5><BR>
+
+Directives are used to extend HTML with new functionality and can be used to create custom HTML elements, attributes, or classes. AngularJS comes with several built-in directives, such as ng-model, ng-repeat, and ng-show, that can be used to build dynamic applications.
+<BR><BR>
+
+<H5>4)Not browser specific: </H5><BR>
+
+One of the benefits of using AngularJS is that it is not browser specific. This means that AngularJS applications can run on any modern web browser, including Chrome, Firefox, Safari, Edge, and others. This is because AngularJS is a JavaScript framework that is designed to work with the Document Object Model (DOM) and other browser APIs, rather than being tied to any specific browser or platform.
+
+<BR><BR>
+<H5>5)Codeless:</H5><BR>
+
+Codeless in AngularJS is a term used to describe the approach of building AngularJS applications without writing any code. This approach relies on using pre-built templates and drag-and-drop interfaces to build the application without any coding knowledge.
+<BR>
+codeless development in AngularJS can be a useful approach for building simple applications quickly and easily, but it may not be suitable for all types of projects.
+<BR><BR>
+<H5>6)Speed and performance :</H5><BR>
+
+AngularJS is a JavaScript-based framework that was developed by Google to create dynamic, single-page applications. When it comes to speed and performance in AngularJS, there are a few key factors to consider:
+<BR>
+to improve speed and performance in AngularJS, you should reduce the numbers.
+<br><br>
+
+
+
+<H3> ADVANTAGES</H3>
+
+
+<BR>
+AngularJS is a JavaScript-based open-source framework for building dynamic and robust web applications. Here are some advantages of using AngularJS:
+<BR><BR>
+  <b> 1.Two-way data binding:</b>  One of the biggest advantages of AngularJS is its ability to automatically synchronize data between the model and view components. This feature eliminates much of the boilerplate code and makes development faster and easier.
+<BR>
+   <b>2.MVC architecture: </b>  AngularJS follows the Model-View-Controller (MVC) architectural pattern that separates the application logic, presentation layer, and data layer. This makes the code more organized and maintainable.
+<BR>
+  <b>3.Dependency injection: </b>  AngularJS has a built-in dependency injection (DI) system that makes it easy to manage and test components. DI simplifies the code, makes it more modular and reusable.
+<BR>
+ <b>4.Directives: </b>  AngularJS provides a set of built-in directives that extend the functionality of HTML. Directives allow you to create custom elements and attributes that can be used in your application.
+<BR>
+   <b>5.Testing: </b>  AngularJS has excellent support for testing. It comes with built-in tools like Karma and Protractor that make testing easier and more efficient.
+<BR>
+  <b>6.Community and support: </b>  AngularJS has a large and active community of developers who regularly contribute to the framework. This means there are many resources available, including tutorials, documentation, and forums where you can ask for help.
+
+
+
+                                </p>
+           
+                               
+                          
+
+
+                           </div>
+                   
+                   </div> 
+                
+                   <!--this the container of one content -->
+
+
+
+
+
+                   <hr>
+<div id="4.17" class="bg-secondary bg-opacity-25">
+    <center>
+                 <h2> <b>LIST AND EXPLAIN ANJUALR JS DIRECTIVES(ng-app,ng-init,ng-model,ng-repeat)</b><br></h2>                                  
+                 </center>
+   <div class="container" style="margin-top:30px;">
+                  
+                 
+
+                               <p style="margin-top:10px;">
+
+
+                              
+<br><br>
+   <b>  1.ng-app:</b>  This directive is used to define the root element of an AngularJS application. It defines the application module which is used to bootstrap the application.
+<br><br>
+ <b> 2.ng-init: </b>  This directive is used to initialize variables or values in the AngularJS scope. It can be used to set the initial values of variables or to run functions when a page loads.
+<br><br>
+  <b> 3.ng-model</b>  This directive is used to bind the value of an input, select, or textarea element to a variable in the AngularJS scope. Whenever the value of the input element changes, the value of the variable in the scope is automatically updated.
+<br><br>
+  <b>4.ng-repeat: </b>  This directive is used to loop through a collection of data and display each item in the collection. It can be used to generate lists, tables, and other types of data displays.
+
+
+
+                                        
+                             
+                               
+                                </p>
+           
+                               
+                          
+
+
+                           </div>
+                   
+                   </div> 
+                
+                   <!--this the container of one content -->
+
+
+
+                   <hr>
+<div id="4.18" class="bg-secondary bg-opacity-25">
+    <center>
+                 <h2> <b>EXPLAIN ANJULAR JS EXPRESSIONS (number,string,object,array)</b><br></h2>                                  
+                 </center>
+   <div class="container" style="margin-top:30px;">
+                  
+                 
+
+                               <p style="margin-top:10px;">
+                               
+
+In AngularJS, expressions are a combination of variables, operators, and function calls that are evaluated to produce a value. Here's a brief explanation of how AngularJS expressions work with different types of data:
+<br><br><br>
+ <b> 1.Number:</b>  A number can be used directly in an AngularJS expression. For example, {{ 5 + 3 }} will evaluate to 8.
+<br><br>
+  <b> 2.String:</b>  A string should be enclosed in single quotes or double quotes in an AngularJS expression. For example, {{ 'Hello, world!' }} will evaluate to Hello, world!.<br><br>
+
+ <b> 3.Object:  </b>  An object can be accessed in an AngularJS expression using dot notation. For example, if you have an object called person with a property called name, you can display the value of that property in an expression like this: {{ person.name }}.
+<br><br>
+ <b> 4.Array:</b> An array can be accessed in an AngularJS expression using square bracket notation. For example, if you have an array called fruits, you can display the value of the first element in the array like this: {{ fruits[0] }}.
+
+
+
+                                        
+                             
+                               
+                                </p>
+           
+                               
+                          
+
+
+                           </div>
+                   
+                   </div> 
+                
+                   <!--this the container of one content -->
+
+
+
+                   <hr>
+<div id="4.19" class="bg-secondary bg-opacity-25">
+    <center>
+                 <h2> <b>EXPLAIN ANJULAR JS FILTERS (uppercase,lowercase,filter,orderby,currency)</b><br></h2>                                  
+                 </center>
+   <div class="container" style="margin-top:30px;">
+                  
+                 
+
+                               <p style="margin-top:10px;">
+
+
+
+                                
+
+<br><br>
+
+AngularJS filters are built-in functions that can be used to format and transform data in your AngularJS application. Here are some of the most common AngularJS filters:<br><br><br>
+
+  <b>  1.Lowercase filter:</b>  This filter converts the text to lowercase. For example, {{ "HELLO WORLD" | lowercase }} would output "hello world".
+<br><br>
+   <b> 2.Uppercase filter:</b>  This filter converts the text to uppercase. For example, {{ "hello world" | uppercase }} would output "HELLO WORLD".
+<br><br>
+  <b> 3.Currency filter: </b>  This filter formats a number as a currency string using the specified currency symbol. For example, {{ 500 | currency:"USD$" }} would output "$500.00".
+<br><br>
+  <b> 4.Date filter:</b>  This filter formats a date object to a string. For example, {{ new Date() | date:"MM/dd/yyyy" }} would output the current date in the format "04/13/2023".
+<br><br>
+   <b>5.Filter filter: </b>  This filter allows you to filter an array based on a specific criteria. For example, ng-repeat="item in items | filter:{price: 10}" would only show items in the items array that have a price of 10.
+<br><br>
+ <b> 6.OrderBy filter: </b> This filter allows you to sort an array based on a specific property. For example, ng-repeat="item in items | orderBy:'price'" would show items in the items array sorted by their price property in ascending order.
+<br><br>
+Overall, AngularJS filters can be very powerful in manipulating and formatting data to be displayed in your application.
+
+                                        
+                             
+                               
+                                </p>
+           
+                               
+                          
+
+
+                           </div>
+                   
+                   </div> 
+                
+                   <!--this the container of one content -->
+                   <div class="icon-bar">
+                    <a href="./HtmlWebpage.html" class="facebook"><i class="fa fa-html5 fa-xl"></i></a>
+                    <a href="CSSWEBPAGE.html" class="twitter"><i class="fa fa-css3 fa-xl"></i></a>
+                    <a href="JAVA SCRIPT AJAX AND JQUERY.HTML" class="google"><i class="fa-brands fa-js fa-xl"></i></a>
+                    <a href="ANGULARJS.html" class="linkedin"><i class="fa-brands fa-angular fa-xl"></i></i></a>
+                   
+          
+                  </div>
+                  <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+                    <i class="fa-solid fa-arrow-up "></i>
+              </button>
+
+          <script>
+            let mybutton = document.getElementById("btn-back-to-top");
+          
+          // When the user scrolls down 20px from the top of the document, show the button
+          window.onscroll = function () {
+            scrollFunction();
+          };
+          
+          function scrollFunction() {
+            if (
+              document.body.scrollTop > 20 ||
+              document.documentElement.scrollTop > 20
+            ) {
+              mybutton.style.display = "block";
+            } else {
+              mybutton.style.display = "none";
+            }
+          }
+          // When the user clicks on the button, scroll to the top of the document
+          mybutton.addEventListener("click", backToTop);
+          
+          function backToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+          }
+          </script>
+                    
+                  </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe " crossorigin="anonymous "></script>
+
+    </body>

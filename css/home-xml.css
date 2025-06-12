@@ -1,0 +1,10 @@
+body{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/682/1021/274/artwork-black-hexagon-honeycombs-wallpaper-preview.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+P{
+    padding: 8px;
+}

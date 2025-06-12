@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <style>
+        
+    body {margin:0;height:2000px;}
+   p { text-align:justify;} 
+     
+   #btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  right:0%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+ 
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+    
+    .facebook {
+      background: #3B5998;
+      color: white;
+    }
+    
+    .twitter {
+      background: #55ACEE;
+      color: white;
+    }
+    
+    .google {
+      background: #dd4b39;
+      color: white;
+    }
+    
+    .linkedin {
+      background: #007bb5;
+      color: white;
+    }
+    
+    .youtube {
+      background: #bb0000;
+      color: white;
+    }
+      </style>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+<title> css webpage</title>
+<script src="https://kit.fontawesome.com/d8b89baf16.js" crossorigin="anonymous"></script>
+
+<style>
+    P{
+        text-align: justify;
+    }
+</style>
+        
+    </head>
+    <body>
+        <nav class="navbar navbar-dark navbar-expand-lg bg-success bg-opacity-0">
+            <div class="container-fluid">
+                <a href="#" class=""><img src="https://c8.alamy.com/comp/2B3JDJG/initial-wt-letter-linked-logo-creative-letter-wt-logo-design-vector-template-2B3JDJG.jpg" alt="" class="navbar-brand rounded-circle" width="50px" height="60px"></a>
+                <a class="navbar-brand" href="#">Web Development</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html"><i class="fa-solid fa-house"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="About.html">About</a>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Web Technology
+                        </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="TWC.html" >Topic wise content</a></li>
+                                <li><a class="dropdown-item" href="snippets.html" >Snippets</a></li>
+                                <li><a class="dropdown-item" href="Questions.html">Previous Questions paper</a></li>
+                                <li><a class="dropdown-item" href="Labs.html">Lab Programs</a></li>
+                                <li><a class="dropdown-item" href="Youtube.html"  >Youtube links</a></li>
+                                <li><a class="dropdown-item" href="QUIZ.HTML">Quiz</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://www.svrec.ac.in/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="container-fluid">
+            <center>
+                <h1>
+                    Topic wise content
+                </h1>
+                <hr>
+            </center>
+            <div class="container" style="margin-top:50px">
+                <h2>Chapter-2</h2>
+                <br>
+
+              <a href="#2.1 "><h3> 2.1 Understand various HTML tags and usage of style sheets.<br></h3></a> 
+               <br>
+             <a href="#2.2">  2.2 Explain the link and imaging tags &lta&gt, &ltimg&gt with attributes.<br></a>  
+
+             <a href="#2.3">    2.3 Explain the tags, &ltform&gt, &ltinput&gt, &ltbutton&gt, &ltlabel&gt, &ltselect&gt, &ltoptions&gt, &lttextarea&gt,&ltlegend&gt with attributes.<br></a> 
+
+             <a href="#2.4"> 2.4 Explain the tags, &ltframe&gt, &ltframeset&gt, &ltnoframe&gt, &ltiframe&gt with attributes.<br></a>    
+
+             <a href="#2.5"> 2.5 Illustrate about cascading style sheets<br>
+</a>   
+             <a href="#2.6">2.6 Understand the level of styles inline, internal and embedded style sheets.<br></a>   
+
+             <a href="#2.7">  2.7 Explain ID and Class selectors in CSS<br>
+</a>    
+             <a href="#2.8"> 2.8 Explain about Color and background properties<br>
+</a>    
+             <a href="#2.9"> 2.9 Explain about Box properties like Border, position, margin, padding of elements.<br>
+</a>     
+
+
+            </div>
+            
+
+
+
+
+
+            <hr>
+<div id="2.1">
+    <center>
+                 <h2> <b>Understand various HTML tags and usage of style sheets</b><br></h2>                                  
+                 </center>
+   <div class="container" style="margin-top:30px;"> 
+                  
+                 
+
+                               <p style="margin-top:10px;">
+                                
+                            <b>  HTML tags are the building blocks of web pages. They are used to define the structure and content of a web page. Here are some commonly used HTML tags and their descriptions:
+                            </b>
+                            <br>
+                            <b> i. </b>  <b> &lthtml>:</b>  This tag defines the beginning and end of an HTML document.
+                            <br>
+                           <b>ii.</b> <b> &lthead>:</b> This tag contains information about the document, such as the title and meta data.
+
+                            <br><b>iii.</b> <b>&lttitle>:</b> This tag defines the title of the document, which is displayed in the browser's title bar.
+
+                            <br> <b>iv.</b> <b>&ltbody>: </b>This tag contains the visible content of the web page.
+
+                            <br> <b>v. </b> <b>&lth1> to &lth6>: </b>These tags define headings of different sizes and importance.
+
+                            <br> <b>vi.</b>  <b>&ltp>: </b>This tag defines a paragraph.
+                            <br>
+                           <b>vii.</b>   <b>&lta>: </b>This tag defines a hyperlink.
+
+                            <br> <b>viii.</b>   <b>&ltimg>:</b> This tag defines an image.
+
+                            <br><b>ix. </b>   <b>&ltul> and &ltli>:</b> These tags define an unordered list and its items.
+
+                            <br><b>x.</b>   <b>&ltol> and &ltli>:</b> These tags define an ordered list and its items.
+
+                            <br><b>xi. </b>  <b>&lttable>,</b> <tr>, <td>: These tags define a table and its rows and cells.
+
+                            <br>
+                            HTML also allows you to style your web pages using style sheets. Style sheets provide a way to separate the presentation of a web page from its content. Here are some commonly used methods for styling web pages using style sheets:
+
+                            <br>
+
+                            <br>
+                           <b> Internal style sheet:</b>  This is defined within the head section of an HTML document using the &ltstyle> tag. <br>
+                           <b>External style sheet:</b>  This is defined in a separate CSS file and linked to the HTML document using the &lt link> tag. <br>
+                           <b>Inline styles:  </b> This is defined directly within the HTML tag using the style attribute. <br>
+
+                            <br><b> Some commonly used CSS properties include:
+</b>
+                            <br>
+                           <b>i.color: </b>  This property sets the color of the text.
+
+                            <br> <b>ii.font-size:</b>  font-size: This property sets the size of the font.
+                            <br>
+                           <b> iii. background-color:</b>  This property sets the background color of an element.
+
+                            <br><br> <b> iv. border:</b> This property sets the border around an element.
+
+                            <br>  <b>v. margin:</b>  This property sets the margin of an element.
+                            <br>
+                          <b> vi. padding:</b>  This property sets the padding of an element.
+
+                            <br> <b>vii. text-align:</b> This property sets the alignment of text within an element.
+
+                            <br> <b> viii. display:</b>  This property sets how an element is displayed.<br>
+                                        
+                             
+                               
+                                </p>
+           
+                               
+                          
+
+
+                           </div>
+                   
+                   </div> 
+                
+                   <!--this the container of one content -->
+
+                   <hr>
+<div id="2.2">
+    <center>
+                 <h2> <b>Explain the link and imaging tags &lta&gt, &ltimg&gt with attributes.</b><br></h2>                                  
+                 </center>
+   <div class="container" style="margin-top:30px;">
+                  
+                 
+
+                               <p style="margin-top:10px;">
+                                The &lta> tag is used to create a hyperlink that links one web page to another. It has the following syntax: <br>
+
+                                <br>
+                              <b> &lta href="url">Link text&lt/a> <br></b> 
+
+                                <br>
+                               <b> The "href" attribute specifies the URL of the page that the link goes to. For example, to link to Google's homepage, you would use the following code: <br></b>
+
+                                <br>
+                               <b> &lta href="https://www.google.com/">Go to Google&lt/a> <br></b> 
+
+                                <br>
+                              <b> The link text is what the user clicks on to follow the link. <br></b> 
+
+                                <br>
+
+                               <b>The &ltimg> tag is used to display an image on a web page. It has the following syntax<br></b> 
+
+                                <br>
+                                <b> &ltimg src="image_url" alt="image_description"> <br></b> 
+
+                                <br>
+                           <b> The "src" attribute specifies the URL of the image file. For example, to display an image called "myimage.jpg" located in the same folder as the HTML file, you would use the following code: <br>
+                           </b>
+
+                                <br>
+                              <b>
+                                &ltimg src="myimage.jpg" alt="My image"><br>
+                              </b> 
+
+                                <br><b>
+                                The "alt" attribute provides a text description of the image for accessibility purposes. This text is displayed if the image cannot be loaded or if the user is using a screen reader.<br>
+                                 </b>
+                                <br>
+                              <b> Both the &lta> and &ltimg> tags have additional attributes that can be used to further customize their behavior, such as the "target" attribute for &lta> tags to specify where the link should open, and the "width" and "height" attributes for <img> tags to set the size of the image display.<br>
+                                </b>
+                                                                        
+                                                            
+                               
+                                </p>
+           
+                               
+                          
+
+
+                           </div>
+                   
+                   </div> 
+                
+                   <!--this the container of one content -->
+
+
+
+                   <hr>
+<div id="2.3">
+    <center>
+                 <h2> <b>  Explain the tags, &ltform&gt, &ltinput&gt, &ltbutton&gt, &ltlabel&gt, &ltselect&gt, &ltoptions&gt, &lttextarea&gt,&ltlegend&gt with attributes.</b><br></h2>                                  
+                 </center>
+   <div class="container" style="margin-top:30px;">
+    The &ltform&gt tag is an HTML element that is used to create a form on a web page. It is one of the most important tags for building interactive web pages because it allows users to input data that can be sent to a web server for processing. <br>
+<br>
+    The &ltform&gt tag has several attributes that can be used to specify the behavior and appearance of the form. The most commonly used attributes include: <br>
+    <br>
+    
+    action: specifies the URL of the script or page that will process the form data. <br>
+    <br>
+    method: specifies the HTTP method used to send the form data to the server (e.g., GET or POST). <br>
+    <br>
+    
+    name: specifies a name for the form, which can be used to identify it in scripts and stylesheets. <br>
+    <br>
+    
+<b> HTML input tag. <br></b> 
+<br>
+The &ltinput&gt tag is an HTML element used to create form controls on a web page. It is a self-closing tag, meaning it does not require a closing tag. The &ltinput&gt tag has several attributes that allow you to define the type of input control you want to create, such as text, email, password, checkbox, radio button, file upload, and more.<br>
+<br>
+Here's an example of how to create a simple text input field using the &ltinput&gt tag:<br>
+<br> 
+<b>
+  Syntax:
+<br>
+&ltlabel for="username"&gtUsername:&lt/label&gt<br>
+&ltinput type="text" id="username" name="username"&gt<br>
+<br>
+
+</b>
+
+
+
+In this example, the type attribute is set to "text", which creates a text input field. The id attribute is used to uniquely identify the input field, and the name attribute is used to define the name of the input field when the form is submitted.<br>
+<br>
+The &ltlabel&gt tag is used to provide a description for the input field and is associated with the input field using the for attribute. When the label is clicked, the input field will be focused.HTML input tag.<br>
+<br>
+The &ltinput&gt tag is an HTML element used to create form controls on a web page. It is a self-closing tag, meaning it does not require a closing tag. The &ltinput&gt tag has several attributes that allow you to define the type of input control you want to create, such as text, email, password, checkbox, radio button, file upload, and more.<br>
+<br>
+Here's an example of how to create a simple text input field using the &ltinput&gt tag:<br>
+<br><b>
+  Syntax:<br>
+<br>
+&ltlabel for="username"&gtUsername:&lt/label&gt<br>
+&ltinput type="text" id="username" name="username"&gt<br>
+<br>
+
+</b>
+<br>
+
+<br>
+<hr>
+
+<b>
+  The &ltbutton&gt tag defines a clickable button. <br>
+</b>
+
+<br>
+  Inside a &ltbutton&gt element you can put text (and tags like &lti&gt, &ltb&gt, &ltstrong&gt, &ltbr&gt, &ltimg&gt, etc.). That is not possible with a button created with the &ltinput&gt element!
+  <br>
+  It can be used for a variety of purposes, such as submitting a form, triggering an event or function, or navigating to another page.
+  <br>
+  <b>
+     Syntax:
+       <br>
+         &ltbutton&gtClick me!&lt/button&gt<br>
+         <br>  
+  </b>
+  <hr>
+  <b>•The &ltlabel> tag is an HTML element used to associate a label with an input element on a web page. <br> </b>  <br>
+    •It is typically used to provide a description or caption for the input element, making it easier for users to understand what information should be entered in the input field.
+    <br>
+    <br>
+
+    <b>
+         Syntax:<br>
+         <br>
+             &ltlabel for="name">Name:&lt/label><br>
+    &ltinput type="text"  id="name"  name="name><br>
+    <br>
+    </b>
+        
+      
+
+
+
+In this example, the type attribute is set to "text", which creates a text input field. The id attribute is used to uniquely identify the input field, and the name attribute is used to define the name of the input field when the form is submitted.<br>
+<br>
+The &ltlabel&gt tag is used to provide a description for the input field and is associated with the input field using the for attribute. When the label is clicked, the input field will be focused. &ltbr&gt<br>
+<br>
+                 
+
+                               <p style="margin-top:10px;">
+                              
+                                        
+                             
+                               
+                                </p>
+           
+                               
+                          
+
+
+                           </div>
+                   
+                   </div> 
+                
+                   <!--this the container of one content -->
+
+
+
+                   <hr>
+<div id="2.4">
+    <center>
+                 <h2> <b>Explain the tags, &ltframe&gt, &ltframeset&gt, &ltnoframe&gt, &ltiframe&gt with attributes.</b><br></h2>                                  
+                 </center>
+   <div class="container" style="margin-top:30px;">
+                  
+                 
+
+                               <p style="margin-top:10px;">
+                             <h3>  &ltframe&gt <br>
+<br></h3> 
+The &ltframe&gt tag is an HTML element that was used in older versions of HTML to define a rectangular region within a web page where a separate HTML document can be displayed. However, the &ltframe&gt tag is now considered obsolete in HTML5 and has been replaced by other HTML elements such as &ltiframe&gt, &ltobject&gt, and &ltembed&gt.
+<br>
+Here is an example of how the &ltframe&gt tag was used:
+<br>
+<br>
+&ltframeset cols="25%,75%"&gt<br>
+  &ltframe src="menu.html"&gt<br>
+  &ltframe src="content.html"&g<br>
+&lt/frameset&gt<br>
+                                        
+                             <hr>
+                             The <b>&ltnoframes></b>  tag is an HTML element that is used to provide alternate content for web browsers that do not support frames. 
+                            <br> When a web page containing frames is viewed in a browser that does not support frames, the content within the &ltnoframes> tag will be displayed instead.
+
+                               <hr>
+                               The <b> &ltiframe&gt</b> tag is an HTML element that is used to embed another HTML document within the current document. <br>
+<br>
+The content that is embedded within an &ltiframe&gt can come from a different domain, <br>
+<br>
+which makes it a powerful tool for displaying external content within a web page. <br>
+<br>
+    Here is an example of how the &ltiframe&gt tag can be used: <br>
+    <br>    
+    &ltiframe src="https://www.example. <br>
+    
+                                </p>
+           
+                               
+                          
+
+
+                           </div>
+                   
+                   </div> 
+                
+                   <!--this the container of one content -->
+
+
+                   <hr>
+<div id="2.5">
+    <center>
+                 <h2> <b> Illustrate about cascading style sheets</b><br></h2>                                  
+                 </center>
+   <div class="container" style="margin-top:30px;">
+                  
+                 
+
+                               <p style="margin-top:10px;">
+                                <b> Cascading Style Sheets (CSS)</b>  is a stylesheet language used to describe the presentation of a document written in HTML or XML. CSS describes how HTML elements should be displayed on a screen, paper, or other media.
+
+
+                                <br>Here's an example of a basic 
+                                <br>CSS code:
+                                
+                                
+                                <br>
+                                
+                                css
+                                
+                                
+                                <br>Copy code
+                                
+                                
+                                <br>
+                                <b>
+                                <br>body {
+                                 
+                                 
+                                
+                                <br>font-family: Arial, sans-serif;
+                                 
+                                
+                                <br>background-color: #f2f2f2;
+                                }
+                                
+                                
+                                <br>
+                                <br>
+                                h1 {
+                                  color: blue;
+                                  
+                                
+                                <br>font-size: 24px;
+                                  
+                                
+                                <br>
+                                text-align: center;
+                                }
+                                
+                                
+                                <br>
+                                <br>
+                                p {
+                                  
+                                
+                                <br>color: black;
+                                  
+                                
+                                <br>font-size: 16px;
+                                  
+                                
+                                <br>line-height: 1.5;
+                                </b>
+                                
+                                <br>
+                                }
+                                
+                                
+                                <br>
+                                <br>In the above code, we have defined three CSS rules using selectors. The first rule applies to the body element, setting the font family and background color. The second rule applies to all h1 elements, setting the color, font size, and text alignment. The third rule applies to all p elements, setting the color, font size, and line height.
+                                
+                                
+                                <br>
+                                CSS uses a cascading model, where multiple styles can be applied to the same element, with the final result being a combination of all applicable styles. This is determined by the specificity of each style rule and their order of precedence.
+                                
+                                
+                                
+                                <br>CSS allows developers to create complex layouts and designs for web pages, and is an essential tool for creating modern, responsive websites.   
+                                        
+                             
+                               
+                                </p>
+           
+                               
+                          
+
+
+                           </div>
+                   
+                   </div> 
+                
+                   <!--this the container of one content -->
+
+
+
+                   <hr>
+<div id="2.6">
+    <center>
+                 <h2> <b>Understand the level of styles inline, internal and embedded style sheets.</b><br></h2>                                  
+                 </center>
+   <div class="container" style="margin-top:30px;">
+                  
+                 
+
+                               <p style="margin-top:10px;">
+                                Inline style sheets are CSS styles that are applied directly to an individual HTML element, using the "style" attribute. They have the highest level of specificity in CSS, meaning they have the greatest priority over other types of styles.
+<br>
+                                            Inline styles are often used for quick styling changes or for overriding specific styles on an element that are set by an external stylesheet or a stylesheet within the HTML document. However, inline styles can become difficult to manage and maintain as they become more numerous and complex, and can lead to code bloat and decreased performance.
+
+                                            <br>
+                                            In general, it is recommended to use external style sheets or internal style sheets (defined within the head of an HTML document) for most styling needs, as these offer better organization, ease of maintenance, and flexibility in making global style changes. Inline styles should be used sparingly and only for specific and immediate styling needs.
+
+                                            <br>
+
+
+                                            <h1>Internal CSS Styles.</h1><br>
+
+
+
+                                            An internal style sheet is a type of CSS stylesheet that is included directly within the HTML document, typically in the head section of the document. The level of an internal style sheet refers to the scope of the styles defined within it.
+
+                                            <br>
+                                            In general, an internal style sheet has a document-level scope, meaning that any styles defined within it will apply to all elements within the document. However, it is also possible to define styles that apply only to specific elements or groups of elements within the document.
+
+                                            <br>
+                                            To apply styles to specific elements, you can use CSS selectors to target those elements. For example, you might use the following rule to apply a specific style to all paragraphs within the document:
+
+                                            <br><b>
+                                            p {
+                                            font-size: 16px;
+                                            }</b>
+
+                                            <br>
+                                            Alternatively, you can use class or ID selectors to target specific elements within the document. For example, you might use the following rule to apply a specific style to all elements with the class "highlight":
+
+                                            <br>
+                                            <b>   
+                                            .highlight
+                                            {
+                                            <br>
+                                            background-color: yellow;
+                                              </b>
+                                            <br>}
+
+                                            <br>
+
+
+                                            <h2>
+
+                                            Embedded style sheet level.</h2><br>
+
+
+
+                                            Embedded style sheets are a way to define styles for HTML elements within the &ltstyle> tags inside the &lthead> section of an HTML document. The level of embedded style sheets depends on the version of CSS (Cascading Style Sheets) being used.
+
+                                            <br>
+                                            The first version of CSS, CSS1, was published in 1996 and did not support embedded style sheets. Embedded style sheets were introduced in CSS2, which was published in 1998.
+
+                                            <br><br>
+                                            CSS2 has since been superseded by CSS3, which is the current version of CSS. CSS3 also supports embedded style sheets, and has added many new features and capabilities to the language.
+
+                                            <br>
+                                            Therefore, embedded style sheets can be considered a feature of both CSS2 and CSS3, depending on the specific syntax and features being used.<br> 
+                                                                                    
+                             
+                               
+                                </p>
+           
+                               
+                          
+
+
+                           </div>
+                   
+                   </div> 
+                
+                   <!--this the container of one content -->
+
+
+                   <hr>
+<div id="2.7">
+    <center>
+                 <h2> <b>Explain ID and Class selectors in CSS</b><br></h2>                                  
+                 </center>
+   <div class="container" style="margin-top:30px;">
+                  
+                 
+
+                               <p style="margin-top:10px;">
+                                        
+                             
+                               
+                                </p>
+                                In CSS, selectors are used to select and apply styles to specific HTML elements on a web page. Two of the most commonly used selectors are the id selector and the class selector.
+
+                                <br>
+                                1.Id Selector 
+                                <br><br>An ID selector is used to select a specific HTML element with a unique identifier. To select an element by its ID, you use the hash symbol (#) followed by the ID name. For example, if you have an HTML element with the ID "my-element", you can select it using the following
+                                CSS:
+                                <br><br>// Sample code:
+                                <b>
+                                <br>
+                                #para1 {
+                                text-align: center;
+                                
+                                <br>color: red;
+                                  
+                                }</b>
+
+                                <br><br>
+                                2.Class selctor:
+
+                                <br><br>
+                                A class selector is used to select one or more HTML elements that share a common class. To select elements by class, you use a period (.) followed by the class name. For example, if you have several HTML elements with the class "my-class", you can select them using the following CSS:
+
+
+                                <br>//Sample code
+
+                                <b>
+                                <br><br>.h1 {
+                                
+                                <br>text-align: center;
+                                
+                                <br>color: red;
+
+                                <br>}</b>
+
+
+
+                                <br><br>Note that multiple elements can have the same class, so the class selector is useful when you want to apply styles to a group of elements.
+
+                                <br><br>
+                                Overall, the ID and class selectors are both important tools in CSS for targeting specific elements or groups of elements on a web page.
+                                        
+                                                            
+                          
+
+
+                           </div>
+                   
+                   </div> 
+                
+                   <!--this the container of one content -->
+
+
+
+
+                   <hr>
+<div id="2.8">
+    <center>
+                 <h2> <b>Explain about Color and background properties</b><br></h2>                                  
+                 </center>
+   <div class="container" style="margin-top:30px;">
+                  
+                 
+
+                               <p style="margin-top:10px;">
+                                Explain about color and background properties <br>
+
+                                CSS (Cascading Style Sheets&rpar is a language used for describing the presentation of a document written in markup languages like HTML or XML. The color and background properties in CSS are used to set the color and background<br> of elements on a web page<br>
+                                <br>.
+                                
+                                1.Color Property:
+                                
+                                
+                                The color property in CSS is used to set the color of text, border, or background of an element. It can be specified using various ways like predefined color names, HEX values, RGB values, RGBA values, or HSL values.
+                                
+                                <br><b>
+                                //Sample code:
+                                
+                                
+                                 h1 {
+                                
+                                  color: red;  // using predefined color
+                                 name 
+                                }
+                                
+                                
+                                <br>
+                                
+                                p{
+                                
+                                  color: #008000;   // using HEX value
+                                 
+                                }
+                                
+                                <br>
+                                div {
+                                  
+                                color: rgb(255, 0, 0&rpar;.  // using RGB value 
+                                
+                                }
+                                
+                                <br>
+                                Body {
+                                 
+                                 color: rgba(255, 0, 0, 0.5&rpar;   // using RGBA value
+                                 
+                                }
+                                
+                                <br>
+                                h2 {
+                                 
+                                 color: hsl(120, 100%, 50%&rpar;.  // using HSL value 
+                                
+                                }<br>
+                                </b>
+                                
+                                
+                                2.Background Property:
+                                
+                                
+                                The background property in CSS is used to set the background color or image of an element. It can also be specified using various way.
+                                
+                                <br>
+                                The background property is a shorthand property for:
+                                
+                                
+                                background-color<br>
+                                background-image<br>
+                                
+                                background-repeat
+                                
+                                <br>background-position
+                                
+                                <br>background-size 
+                                background-origin
+                                
+                                background-clip
+                                
+                                <br>background-attachment
+                                
+                                <b>
+                                //Sample code:
+                                
+                                
+                                h1 {
+                                
+                                  background-color: yellow; /* using predefined color name */
+                                
+                                }
+                                
+                                <br>
+                                p {
+                                 
+                                 background-color: #008000; /* using HEX value */
+                                
+                                }
+                                
+                                
+                                1&rpar CSS background-color:</b>
+                                The background-color property is used to specify the background color of the element.<br>
+                                
+                                
+                                2&rpar CSS background-image:
+                                The background-image property is used to set an image as a background of an element. By default the image covers the entire element.
+                                
+                                <br>
+                                3&rparCSS background-repeat:
+                                By default, the background-image property repeats the background image horizontally and vertically. Some images are repeated only horizontally or vertically.
+                                The background looks better if the image repeated horizontally only.
+                                
+                                
+                                <br>4&rparCSS background-attachment:
+                                The background-attachment property is used to specify if the background image is fixed or scroll with the rest of the page in browser window. If you set fixed the background image then the image will not move during scrolling in the browser.
+                                
+                                 
+                                5&rparCSS background-position:
+                                
+                                The background-position property is used to define the initial position of the background image. By default, the background image is placed on the top-left of the webpage.<br>
+                                
+                                
+                                You can set the following positions:
+                                
+                                <b>
+                                Center
+                                
+                                <br>Top
+                                
+                                <br>Bottom
+                                <br>Left
+                                
+                                <br>Right.</b>
+                                
+                                
+                                        
+                             
+                               
+                                </p>
+           
+                               
+                          
+
+
+                           </div>
+                   
+                   </div> 
+                
+                   <!--this the container of one content -->
+
+
+                   <hr>
+<div id="2.9">
+    <center>
+                 <h2> <b>Explain about Box properties like Border, position, margin, padding of elements.</b><br></h2>                                  
+                 </center>
+   <div class="container" style="margin-top:30px;">
+                  
+                 
+
+                               <p style="margin-top:10px;">
+                                    In HTML and CSS, elements can be styled using various box properties to control their appearance and layout. Here is a
+                                    brief explanation of the commonly used box properties:
+
+                                    <br>
+                                   <b> 1.Border:</b>   The border property is used to add a border around an
+                                    element. You can set the width, style, and color of the border. For example, to set a red border with a solid style and a 2px width, you can use the following CSS code: border: 2px solid red;
+
+
+                                    <br> <b>2 Position:</b>
+                                    The position property is used to control the position of an element relative to its parent or to the viewport.
+                                    The most commonly used values are relative, absolute, fixed, and static. For example, to position an element 10 pixels
+                                    from the top and 20 pixels from the left of its parent, you can use the following CSS code: position: relative; top:
+                                    10px; left: 20px;
+
+                                    <br>
+                                      <b> 3.Margin:</b>   The margin property is used to control the space between elements. You can set the margin on
+                                    all four sides or on individual sides. For example, to set a 10px margin on all four sides of an element, you can use
+                                    the following CSS code: margin: 10px;
+
+                                    <br>
+                                   <b> 4.Padding:</b>   The padding property is used to add space between the content of an
+                                    element and its border. You can set the padding on all four sides or on individual sides. For example, to set a 10px
+                                    padding on all four sides of an element, you can use the following CSS code: padding: 10px;
+
+                                    By using these box properties, you can control the appearance and layout of elements on your webpage,
+                                        
+                             
+                               
+                                </p>
+           
+                               
+                          
+
+
+                           </div>
+                   
+                   </div> 
+                
+                   <!--this the container of one content -->
+
+
+        </div>
+
+        <div class="icon-bar">
+          <a href="./HtmlWebpage.html" class="facebook"><i class="fa fa-html5 fa-xl"></i></a>
+          <a href="CSSWEBPAGE.html" class="twitter"><i class="fa fa-css3 fa-xl"></i></a>
+          <a href="JAVA SCRIPT AJAX AND JQUERY.HTML" class="google"><i class="fa-brands fa-js fa-xl"></i></a>
+          <a href="ANGULARJS.html" class="linkedin"><i class="fa-brands fa-angular fa-xl"></i></i></a>
+         
+
+        </div>
+        <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+          <i class="fa-solid fa-arrow-up "></i>
+    </button>
+
+<script>
+  let mybutton = document.getElementById("btn-back-to-top");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 20 ||
+    document.documentElement.scrollTop > 20
+  ) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+// When the user clicks on the button, scroll to the top of the document
+mybutton.addEventListener("click", backToTop);
+
+function backToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+            
+            
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe " crossorigin="anonymous "></script>
+    </body>
+</html>
